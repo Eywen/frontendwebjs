@@ -27,14 +27,6 @@ window.onload = function(){
     
 }
 
-
-
-
-
-
-
-
-
 function pintarTablero (){
     localStorage['numCartas'] = $("#numMax").val();
     numeroCartas = localStorage['numCartas']
@@ -45,8 +37,8 @@ function pintarTablero (){
 
 function inicializar (){
     let numeroCartas = localStorage['numCartas']
-    alert('ini');
-    var baraja = $('#index');
+    //alert('ini');
+    var baraja = $('#divBaraja');
 
     var pathImg = "../imagenes/cartas/";
     var imgreverso = {ruta:pathImg+"reverso.jpg"};
