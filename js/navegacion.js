@@ -8,7 +8,6 @@ window.onload = function(){
 
     document.getElementById('jugarOp').addEventListener('click',
         function() {
-            //inicilizar();
             $('#index').load ('/vistas/juego.html');
             juego = true; 
             inicializar();
